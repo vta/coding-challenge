@@ -31,7 +31,7 @@ Extra Credit example:
 
 Make use of GitHub for development: commits, PRs, issues
 
-Create a private GitHub, GitLab or BitBucket repository for this coding challenge.
+Create a private or public GitHub, GitLab or BitBucket repository for this coding challenge.
 
 Utilize a database or service to store information using Doctrine ORM.
 
