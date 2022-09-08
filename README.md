@@ -1,0 +1,2 @@
+# coding-challenge
+We are actively seeking accomplished programmers to join our growing team and actively participate in design, architecture, implementation and deployment of web based applications.  The purpose of this project is to test a candidate's programming aptitude, style and knowledge of best practices.   The following challenge should be built using PHP ^8.1 and Symfony ^6.1 to test your knowledge using MVC frameworks and OOP methodologies.
