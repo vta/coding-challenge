@@ -11,7 +11,7 @@ The following challenge should be built using one of the languages of your choic
 
 ## Scenario
 
-Design and develop a Project, which uses a CLI command to parse a GTFS Real-time TripUpdates feed in JSON format to an Object, then store the `TripUpdate` entity with it's unique identifier, and also each `StopTimeUpdate` within it's own entity which is related to the TripUpdate parent within the databse of your choice.
+Design and develop a Project, which uses a CLI command to parse a GTFS Real-time TripUpdates feed in JSON format to an Object, then store the `TripUpdate` entity with it's unique identifier, and also each `StopTimeUpdate` within it's own entity which is related to the TripUpdate parent within the database of your choice.
 
 Use the GTFS-RT feed provided in the instructions below.
 
