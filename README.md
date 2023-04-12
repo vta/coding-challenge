@@ -37,7 +37,7 @@ Utilize a database or service to store information using some form of ORM with t
 Provide documentation for deployment, if we cannot get the project up and running based on the README, we will not acknowledge the challenge.
 
 1. Use the Swiftly API provided in this repository to parse and store TripUpdates and the related StopTimeUpdates within a database.
-2. Create an Entity for the TripUpdates with relational properties to a StopTimeUpdate entity that relates the StopTimeUpdates with the corresponding Trip.
+2. Create an Entity for each TripUpdate with relational properties to a StopTimeUpdate entity. Each TripUpdate record in the database should have a OneToMany relationship with the corresponding StopTimeUpdates. 
 3. Create a console command that parses the TripUpdates file, iterates through each TripUpdate, and stores the data for each `TripUpdate` and `StopTimeUpdate` as a new row in the database, where the StopTimeUpdates are related to the parent TripUpdate.
 4. When storing the TripUpdates, make sure to also store the ID of each entity.
 5. Extra Credit: *Existing records within the database should be skipped, and new ones should be appended.*
@@ -48,7 +48,7 @@ Provide documentation for deployment, if we cannot get the project up and runnin
    -  API Key: `59af72683221a1734f637eae7a7e8d9b`
    -  format: json
    -  Full Endpoint: https://api.goswift.ly/real-time/vta/gtfs-rt-trip-updates?apiKey=59af72683221a1734f637eae7a7e8d9b&format=json
-   -  Documentation: https://swiftly-inc.stoplight.io/docs/standalone/99a5881ffdb83-gtfs-rt-trip-updates
+   -  Documentation: https://swiftly-inc.stoplight.io/docs/realtime-standalone/613d1d7f1eae3-gtfs-rt-trip-updates
 9. Must be able to run this project on a local machine
 10. Commit often and frequently, use branches, issues, and pull requests where needed.
 11. DO NOT USE code from stackoverflow, CHATGPT, or other websites, this code must be your own.
