@@ -38,7 +38,7 @@ Provide documentation for deployment, if we cannot get the project up and runnin
 
 1. Use the Swiftly API provided in this repository to parse and store TripUpdates and the related StopTimeUpdates within a database.
 2. Create an Entity for each TripUpdate with relational properties to a StopTimeUpdate entity. Each TripUpdate record in the database should have a OneToMany relationship with the corresponding StopTimeUpdates. 
-3. Create a console command that parses the TripUpdates file, iterates through each TripUpdate, and stores the data for each `TripUpdate` and `StopTimeUpdate` as a new row in the database, where the StopTimeUpdates are related to the parent TripUpdate.
+3. Create a console command that parses the TripUpdates feed, iterates through each TripUpdate, and stores the data for each `TripUpdate` and `StopTimeUpdate` as a new row in the database, where the StopTimeUpdates are related to the parent TripUpdate.
 4. When storing the TripUpdates, make sure to also store the ID of each entity.
 5. Extra Credit: *Existing records within the database should be skipped, and new ones should be appended.*
 6. Make an API endpoint in the same application that returns up to 100 results from the database.
